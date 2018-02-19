@@ -1,0 +1,6 @@
+bsdiff oldfile newfile patchfile生成差分文件
+bspatch oldfile newfile patchfile生成新文件
+针对新文件做校验
+window平台自带certutil工具
+certutil -hashfile filename [HashAlgorithm MD5/SHA1/SHA256]
+可以对生成的两个新Apk的MD5校验，MD5相同的Apk就做更新，360加固后的MD5也是相同的
